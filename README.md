@@ -74,7 +74,7 @@ In addition, we also provide some basic information for the images of each scene
 ```
 
 # Method Overview
-__Some important components of our method__. Based on NeRF's high-quality modeling of the scenes, we respectively implement (a) semi-supervised semantic learning across multi-views, (b) modeling text regions, (c) controllable camera setting for rendering target viewpoint, (d) changing the appearance of rendered images, and (e) photo-realistic text editing on target region.
+We use NeRF for scene modeling, and here are some __important components of our method__. Based on NeRF's high-quality modeling of the scenes, we respectively implement (a) semi-supervised semantic learning across multi-views, (b) modeling text regions, (c) controllable camera setting for rendering target viewpoint, (d) changing the appearance of rendered images, and (e) photo-realistic text editing on target region.
 
 ![](figs/method.png)
 
