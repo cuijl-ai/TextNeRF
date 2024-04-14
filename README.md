@@ -78,5 +78,4 @@ We use NeRF for scene modeling, and here are some __important components of our 
 
 ![](figs/method.png)
 
-# Code
-coming soon...
+
