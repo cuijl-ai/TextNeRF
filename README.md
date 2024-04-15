@@ -79,3 +79,8 @@ We use NeRF for scene modeling, and here are some __important components of our 
 ![](figs/method.png)
 
 
+# Limitations
+While our approach has shown promising results, there still exists some limitations. 
+The current method needs to train a specific NeRF for each scene, which limits scalability.
+There may be some color inconsistencies caused by style transfer, and it is difficult to capture text under extreme conditions, such as highly stylized fonts or severe occlusions. 
+In future work, we aim to further optimize our synthesis pipeline to reduce computational demands and explore the extension of our method to other domains requiring fine-grained control over synthetic data generation. 
