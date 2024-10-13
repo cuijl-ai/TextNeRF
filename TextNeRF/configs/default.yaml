@@ -1,0 +1,42 @@
+appearance_dir: ./appearance
+appearance_embed_dim: 48
+appearance_wh:
+  - 224
+  - 224
+appearance_chunk: 4096
+appearance_l2_regular: 1.0e-05
+appearance_loss_w: 0.001
+appearance_mode_seeking_w: 1.0e-06
+check_val_every_n_epoch_appearance: 2
+check_val_every_n_epoch_geometry: 5
+ckpt_path_appearance: null
+ckpt_path_geometry: null
+color_mode: RGB
+distortion_loss_w: 0.001
+downsample: 1.0
+eval_lpips: false
+exp_name: exp
+geometry_ray_sampling_strategy: all_images
+geometry_sample_ratio: 0.5
+geometry_train_batch_size: 8192
+lr_appearance: 0.001
+lr_geometry: 0.01
+local_window_size: 4
+no_save_test_appearance: false
+no_save_test_geometry: false
+num_epochs_appearance: 10
+num_epochs_geometry: 30
+num_gpus: 1
+num_sanity_val_steps: 5
+opacity_loss_w: 0.001
+optimize_ext: false
+random_bg: false
+root_dir: .
+scale: 4
+text_area_enhance_ratio: 1.2
+text_sem_dir: ./labels
+train_appearance: false
+train_results_dir: train_results
+val_results_dir: val_results
+weight_path_appearance: null
+weight_path_geometry: null
