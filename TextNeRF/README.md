@@ -18,12 +18,14 @@ The NeRF training code is based on [ngp_pl](https://github.com/kwea123/ngp_pl) p
 
 
 # Prepare Dataset
-- Colmap data
+- **Colmap data**  
 For custom data, run `colmap` and get a folder `sparse/0` under which there are `cameras.bin`, `images.bin` and `points3D.bin`.
 
-- Annotate source text labels
+- **Annotate source text labels**  
 To model the text regions in a scene, choose some valid views (3~5) after the sfm (colmap) has been run.
-Annotate the selected view through [PPOCRLabel](https://github.com/PFCCLab/PPOCRLabel/blob/main/README.md), and you will get a file named `Label.txt` containing the labeled images and corresponding text instances. (Please note that when annotating the same text instance from different perspectives, a consistent annotation format should be used throughout. For example, the clockwise quadrilateral starting from the upper left vertex could be a standard annotation format).
+Annotate the selected views through [PPOCRLabel](https://github.com/PFCCLab/PPOCRLabel/blob/main/README.md), and you will get a file named `Label.txt` containing the labeled images and corresponding text instances.
+(Please note that when annotating the same text instance from different perspectives, a consistent annotation format should be used throughout.
+For example, the clockwise quadrilateral starting from the upper left vertex could be a standard annotation format).
 
 # Training
 - Customize the scenario-specific parameters for training by referring to the `configs/default.yaml` file. More options can be found in [hparams.py](https://github.com/cuijl-ai/TextNeRF/blob/main/TextNeRF/misc/hparams.py), feel free to modify the parameters based on specific needs.
