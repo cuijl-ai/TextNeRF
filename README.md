@@ -1,5 +1,5 @@
 # TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields
- This repository accompanies the CVPR2024 paper "__TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields__".
+ This repository accompanies the CVPR 2024 paper "__TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields__".
  
 ![](figs/teaser.png)
 # Abstract
@@ -84,3 +84,21 @@ While our approach has shown promising results, there still exists some limitati
 The current method needs to train a specific NeRF for each scene, which limits scalability.
 There may be some color inconsistencies caused by style transfer, and it is difficult to capture text under extreme conditions, such as highly stylized fonts or severe occlusions. 
 In future work, we aim to further optimize our synthesis pipeline to reduce computational demands and explore the extension of our method to other domains requiring fine-grained control over synthetic data generation. 
+
+# Cite our paper
+If you find our work helpful, please cite our paper. Thank you!
+```
+@InProceedings{Cui_2024_CVPR,
+    author    = {Cui, Jialei and Du, Jianwei and Liu, Wenzhuo and Lian, Zhouhui},
+    title     = {TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22272-22281}
+}
+```
+
+# Acknowledgement
+- [ngp_pl](https://github.com/kwea123/ngp_pl) and [nerfstudio](https://github.com/nerfstudio-project/nerfstudio) for NeRF-based scene modeling and novel view synthesis
+- [StableDiffusion](https://github.com/CompVis/stable-diffusion) for controllable image editing
+
