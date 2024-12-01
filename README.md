@@ -85,7 +85,7 @@ The current method needs to train a specific NeRF for each scene, which limits s
 There may be some color inconsistencies caused by style transfer, and it is difficult to capture text under extreme conditions, such as highly stylized fonts or severe occlusions. 
 In future work, we aim to further optimize our synthesis pipeline to reduce computational demands and explore the extension of our method to other domains requiring fine-grained control over synthetic data generation. 
 
-# Cite our paper
+# Citation
 If you find our work helpful, please cite our paper. Thank you!
 ```
 @InProceedings{Cui_2024_CVPR,
