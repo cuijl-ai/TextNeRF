@@ -33,3 +33,4 @@ For example, the clockwise quadrilateral starting from the upper left vertex cou
 
 # Synthesizing and auto-annotating data
 - Use the `annotate_dataset.py` script to synthesize new data and annotate the corresponding text labels. For detailed usage instructions, please refer to the comments within the script.
+- Note: To improve efficiency, we have made certain modifications and optimizations to the logic for modeling scene text regions. Instead of the previous approach of training a semantic radiance field, we have adopted a more direct method based on stereoscopic geometric projection. This approach may differ slightly from the description in the original documentation.
